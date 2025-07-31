@@ -38,7 +38,7 @@ const Profile = () => {
     (async () => {
       try {
         const res = await axios.get(
-          `http://${process.env.EXPO_PUBLIC_IP}:8081/profile/${userId}`
+          `http://localhost:1433/profile/${userId}`
         );
         setProfiles(res.data);
         console.log(res.data);

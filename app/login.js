@@ -33,7 +33,7 @@ const LoginForm = () => {
     try {
       console.log(process.env.EXPO_PUBLIC_IP);
       const response = await axios.post(
-        `http://${process.env.EXPO_PUBLIC_IP}:8081/users/login`,
+        `http://localhost:1433/users/login`,
         {
           website_login: data.website_login.trim(),
           password: data.password.trim(),

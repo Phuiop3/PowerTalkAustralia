@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "mysql2": "^3.14.0"
-  }
+    "mssql": "^11.0.1",
+    "mysql2": "^3.14.0",
+    "dotenv": "17.2.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
